@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dmvjw6np5ayup"]
+
+[node name="main" type="Control" unique_id=348403712]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=70251511]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=55606935]
+layout_mode = 2
+
+[node name="TextEdit" type="TextEdit" parent="MarginContainer/HBoxContainer" unique_id=1210809028]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+placeholder_text = "type in here"
